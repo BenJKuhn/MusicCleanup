@@ -2,7 +2,7 @@ Music Cleanup Tool
 
 This script came in handy when I needed to recover a ton of music from a disparate 
 set of source devices. It traverses a directory tree one folder at a time, finds all the songs,
-and places them into a target folder under [album artist]\[album]\[track#][track name].[existing extension]
+and places them into a target folder under [album artist]\\[album]\\[track#][track name].[existing extension]
 
 It has a number of very specific workarounds for some issues I encountered, and I didn't fully
 work through powershell escaping rules, so there are some rough edges when songs have strange characters.
