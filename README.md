@@ -17,14 +17,22 @@ than using hard coded values.
 All in all, it was pretty useful for me, and I hope if you're looking for a way to organize your mesic 
 collection, you find this to be a helpful starting point.
 
-Typical usage:
+## Typical usage:
 
+````
     normalize.ps1 -SourceDir . -TargetDir "m:\MergedMusic"
+````
 
-Additional options:
+## Additional options:
 
+Show Detailed output:
+
+````
   -Verbose $True
-        Detailed output
+````
 
+Show what will happen, but don't copy anything:
+
+````
   -Mock $True
-        Show what will happen, but don't copy anything.
+````
